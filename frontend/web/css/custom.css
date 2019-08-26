@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+section.application-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #f0f0f0;
+}
+section.application-link .info-application {
+    min-width: 400px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+section.application-link .info-application h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+section.application-link .info-application p {
+    font-size: 18px
+}
+
+section.application-link .info-application .link img {
+    width: 200px;
+    object-fit: cover;
+}
